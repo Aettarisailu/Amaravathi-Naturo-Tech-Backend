@@ -12,14 +12,14 @@ app.post('/sendMail', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'ramanareddy.ant@gmail.com', // Your Gmail address
-      pass: 'pesa ubqj gehx mzps', // App password
+      user: 'amaravathinaturotech.ant@gmail.com', // Your Gmail address
+      pass: 'pojr bnnr ptah kyvw', // App password
     },
   });
 
   const mailOptions = {
-    from: email || 'ramanareddy.ant@gmail.com',
-    to: 'ramanareddy.ant@gmail.com',
+    from: email || 'amaravathinaturotech.ant@gmail.com',
+    to: 'amaravathinaturotech.ant@gmail.com',
     subject: 'New Message from Contact Form',
     text: `Name: ${name}\nContact: ${contact}\nEmail: ${email}\nMessage: ${message}`,
   };
